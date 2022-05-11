@@ -233,31 +233,43 @@ footer {
 /* media querys */
 
 /* for larger to medium screen size from 1200px wide and down */
-@media screen and (max-width: 1200px){
-    #club-ethos{
-      width: 65%;
-      height: 1200px;
-      margin: 0 auto;
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
     }
-    #welcome{
-      padding: 30px 0;
-      margin-top: 0;
+
+    #welcome {
+        padding: 30px 0;
+        margin-top: 0;
     }
-    #left-about, #right-about{
-      width: 100%;
-      float: left;
-      padding: 0;
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
     }
-    #center-about{
-      clear: both;
-      width: 100%;
-      float: left;
-      padding: 0;
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
     }
-    hr{
-      display: none;
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
     }
-  }
+    
+    hr {
+        display: none;
+    }
+}
 
   /* for medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
