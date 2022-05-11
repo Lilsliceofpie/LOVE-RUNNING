@@ -77,10 +77,10 @@ h1, h2 {
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from{
-        scale: (1);
+        transform: scale(1);
     }
     to{
-        scale: (1.1);
+        transform: scale(1.1);
     }
 }
 
@@ -310,6 +310,8 @@ footer {
         column-count: 3;
     }
 }
+
+/* for small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
     #photo {
         column-count: 2;
